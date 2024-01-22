@@ -20,11 +20,11 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-Template code is provided in the `emotion-detection-nlp-project.ipnyb` notebook file. You will also require to use 3 csv file datasets in data folder named `happiness.csv`, `angriness.csv` and `sadness.csv`.
+Template code is provided in the `emotion-detection-nlp-project.ipnyb` notebook file. You will also require to use 3 csv file datasets in `emotion-detection-nlp-project/data` folder named `happiness.csv`, `angriness.csv` and `sadness.csv`.
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `emotion_detection_nlp_project/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level directory `emotion_detection_nlp_project/` (that contains this README) and run one of the following commands:
 
 ```bash
 ipython notebook boston_housing.ipynb
