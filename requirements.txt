@@ -8,4 +8,3 @@ nltk
 neattext
 streamlit
 altair
-string
