@@ -4,7 +4,7 @@ import streamlit as st
 import altair as alt
 import joblib
 
-pipe_clf = joblib.load(open(r"C:\Users\ksank\OneDrive\Desktop\Emotion-detection-NLP-project\emotion-detection-nlp-project\model\Emotion_intensity_SVM.pkl", "rb"))
+pipe_clf = joblib.load(open("emotion_detection_nlp_project\models\Emotion_intensity_SVM.pkl", "rb"))
 
 emotions_emoji_dict = {"angriness": "😠", "happiness": "😀", "sadness": "😞"}
 
