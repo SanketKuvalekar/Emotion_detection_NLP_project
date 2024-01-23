@@ -8,5 +8,4 @@ nltk
 neattext
 streamlit
 altair
-re
 string
