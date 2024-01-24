@@ -29,22 +29,19 @@ Template code is provided in the `emotion-detection-nlp-project.ipnyb` notebook 
 In a terminal or command window, navigate to the top-level directory `emotion_detection_nlp_project/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook boston_housing.ipynb
+ipython notebook emotion-detection-nlp-project.ipynb
 ```  
 or
 ```bash
-jupyter notebook boston_housing.ipynb
-```
-or open with Juoyter Lab
-```bash
-jupyter lab
+jupyter notebook emotion-detection-nlp-project.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The Data used in the project consist of 3 csv files for happy, sad and angry text reviews from people.
+- The Data used in the project consist of 3 csv files for happy, sad and angry text reviews from people.
+- You will need to copy the csv file path on your local machine and paste it during execution of `Data collection` cell in `jupyter notebook`
 
 **Features**
 1.  `content`: Contains actual review from people in text format
@@ -54,16 +51,5 @@ The Data used in the project consist of 3 csv files for happy, sad and angry tex
 
 ### Model Deployment
 
-Deployment of model needs `PyCharm Professional`, `Anaconda Navigator` and `Anaconda Prompt`
-
-- Open `PyCharm` and start new project by clicking on `New Project`
-- For setting of environment for project select `conda` as it will run project in Anaconda and select appropriate location for project storage.
-- Create a new directory in project by right clicking on project name New-> Directory give it name as model.
-- When model directory is created copy `Emotion_intensity_SVM.pkl` pickle file provided in model folder of this project in github repository.
-- Create new python file in project by right clicking on project name New-> Python File give it name main.py
-- Now copy code given in main.py file of this project in github repository.
-- When running the main.py file you will need to change pickle file path in `pipe_clf` and copy the path of pickle file in your local machine. Put `r` before pathname if there is error while running code eg r"pathname".
-- After successful execution of code you will get message saying o view this Streamlit app on a browser, run it with the following
-  command: `streamlit run C:\Users\ksank\OneDrive\Desktop\Emotion-detection-NLP-project\emotion-detection-nlp-project\main.py` this will be different in your case.
-- Copy this command and paste it in `Anaconda prompt` and press enter.
-- This will open the streamlit app where you can enter text and get prediction for sentiment contained in it. 
+- Model is deployed as an app using Streamlit and by using main.py file
+- [Streamlit app url](https://emotiondetectionnlpproject-qriyq4vfymebhqtm6v8hgd.streamlit.app/)
