@@ -16,7 +16,7 @@
 - [streamlit](https://pypi.org/project/streamlit/)
 - [altair](https://pypi.org/project/altair/)
   
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/install.html) and to deploy trained model [PyCharm Professional](https://www.jetbrains.com/pycharm/download/?section=windows) is necessary.
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/install.html)
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](https://www.anaconda.com/download/) distribution of Python. 
 
@@ -53,3 +53,5 @@ This will open the Jupyter Notebook software and project file in your browser.
 
 - Model is deployed as an app using Streamlit and by using main.py file
 - [Streamlit app url](https://emotiondetectionnlpproject-qriyq4vfymebhqtm6v8hgd.streamlit.app/)
+- User needs to enter the text that needs to be analyzed and submit it.
+- The app will the predict whether the sentiment in given text is happiness, angriness or sadness.
